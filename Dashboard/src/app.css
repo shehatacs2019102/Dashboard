@@ -7,6 +7,12 @@
     --bgColor: #f6f9ff;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Open Sans', 'sans-serif';
     color: #444444;
@@ -21,4 +27,7 @@ a{
 a:hover{
     color: var(--second);
     text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito', sans-serif;
 }

@@ -8,8 +8,7 @@ function Nav() {
 
       <ul className="d-flex align-items-center">
           
-          <NavNotice/>
-          <SearchBar/>
+          
           
 
       </ul>

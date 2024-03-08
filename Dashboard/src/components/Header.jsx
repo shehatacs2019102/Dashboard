@@ -10,7 +10,7 @@ function Header() {
 
        <Logo/>
        <SearchBar/> 
-        
+        <Nav/>
 
         
     </header>

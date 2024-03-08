@@ -1,7 +1,11 @@
 import React from 'react';
-import './nav.css';
+
 import NavNotice from './NavNotice';
 import SearchBar from './SearchBar';
+
+import NavAvatar from './NavAvatar';
+import './nav.css';
+
 function Nav() {
   return (
     <nav className="header-nav ms-auto">
@@ -9,10 +13,12 @@ function Nav() {
       <ul className="d-flex align-items-center">
           
           
+          <NavNotice/>
+          
           
 
       </ul>
-
+      
 
     </nav>
   )

@@ -9,26 +9,34 @@ function Dashboard() {
   
  
   return (
-    <section className="dashboard">
-        
-            <div className="col-lg-8">
-                <div className="row">
-                  
+    <div className="dashboard">
+        <div className="container">
+          <div className="row">
+          <div className="col">
                   <PieChart/>
-                  <LineChart/> 
+                  </div>
+                  <div className="col">
+                  <LineChart/>
+                  </div>
+                  <div className="col">
+                  <RecentSalesTable/>
+                  </div>
+          </div>
+                 
+                  
+                   
+          
+                 
                  
                   
 
-                </div>
-
            
 
+         
+    </div>
+
         </div>
-        <div className="col-lg-4">
-          
-           <RecentSalesTable/>
-          </div>
-    </section>
+           
   )
 }
 

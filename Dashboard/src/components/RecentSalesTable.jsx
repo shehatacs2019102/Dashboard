@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 
+import './recentSalesTable.css'
 function RecentSalesTable() {
     const [items, setItems] = useState([])
 
@@ -45,14 +46,14 @@ function RecentSalesTable() {
     //         }
     // </div>
       
-  <div className="recentSales">
+  <div className="recent-sales">
 
     <h2>Recent Sales</h2>
 
 <table className="table table-borderless datatable">
           
           <thead className="table-light">
-              <th scope="col">#</th>
+              <th scope="col">OrderNumber</th>
               <th scope="col">Customer</th>
               <th scope="col">Product</th>
               <th scope="col">Price</th>

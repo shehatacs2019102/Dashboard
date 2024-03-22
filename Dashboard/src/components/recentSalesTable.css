@@ -1,0 +1,35 @@
+.dashboard .recent-sales{
+    font-size: 14px;
+      
+    
+
+
+
+}
+h2{
+    padding: 20px 0 ;
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #012970;
+
+}
+
+.dashboard .recent-sales .table thead {
+    background: #f6f6f6 !important;
+
+}
+.dashboard .recent-sales .table thead th{
+   border: 0; 
+
+}
+
+.dashboard .recent-sales .dataTable-top {
+    padding: 0 0 10px 0;
+
+
+}
+
+.dashboard .recent-sales .dataTable-bottom {
+    padding: 10px 0 0 0 ;
+}

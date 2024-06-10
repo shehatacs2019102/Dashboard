@@ -1,7 +1,7 @@
 {
   "homepage": "https://shehatacs2019102.github.io/Dashboard",
   "name": "dashboard",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

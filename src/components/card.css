@@ -1,0 +1,38 @@
+.card{
+   display: flex;
+    /* max-height: 300px;
+    padding-bottom: 20px;  */
+    
+    background-color: var(--bgColor);
+
+    align-items: center;
+    flex-direction: row;
+    height: 33%; 
+    border: none;
+    
+    /* box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.3); */
+
+}
+h6{
+    margin: 16px 16px;
+    font-size: medium;
+    color: #3dacac;
+}
+
+.growth , .decline{
+    font-size: smaller;
+}
+.growth{
+    color: green;
+}
+.decline{
+    color: red;
+}
+.card-icon{
+    font-size: 32px;
+    line-height: 0;
+    color: #012970;
+    flex-shrink: 0;
+    flex-grow: 0;
+    
+}

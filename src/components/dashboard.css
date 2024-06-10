@@ -1,0 +1,22 @@
+.dashboard{
+    
+}
+.pie-chart, .line-chart, .sales-table {
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.3);
+}
+
+
+.cards{
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.3);
+}
+
+
+
+.pie-chart{
+    /* max-width: 300px; */
+}
+.line-chart{
+    /* max-width: 580px; */
+}

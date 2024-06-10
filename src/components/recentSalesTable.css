@@ -6,11 +6,19 @@
 
 
 }
+tbody{
+     
+
+}
 h2{
     padding: 20px 0 ;
     font-size: 24px;
     margin-bottom: 0;
     font-weight: 600;
+    color: #012970;
+
+}
+.table-light{
     color: #012970;
 
 }

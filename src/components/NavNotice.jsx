@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './navNotice.css'
 function NavNotice() {
   return (
     <li className="nav-item dropdown">
@@ -20,6 +20,17 @@ function NavNotice() {
           <hr className="dropdown-divider" />
         </li>
 
+        <li className="notification-item">
+          <i className="bi bi-exclamation-circle text-warning"></i>
+          <div>
+            <h4>Lorem Ipsum</h4>
+            <p>quae dolorem earum veritatis oditseno</p>
+            <p>30 min. ago</p>
+          </div>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
         <li className="notification-item">
           <i className="bi bi-exclamation-circle text-warning"></i>
           <div>

@@ -11,7 +11,7 @@
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: #aab7cf transparent;
-    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.2);
 
     background-color: #fff;
 }
@@ -109,7 +109,7 @@
     transition: transform 0.2s ease-in-out;
 }
 .sidebar-nav .nav-link:not(.collapsed) .bi-chevron-down {
-    transform: rotate (180deg);
+    transform: rotate (180de33g);
 
 }
 .sidebar-nav .nav-content {
